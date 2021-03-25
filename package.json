@@ -7,12 +7,17 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.0",
+    "env-cmd": "^10.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+    "start:uat": "env-cmd -f .env.uat react-scripts start",
+		"start:prod": "env-cmd -f .env.prod react-scripts start",
+		"build:uat": "env-cmd -f .env.uat react-scripts build",
+		"build:prod": "env-cmd -f .env.prod react-scripts build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
