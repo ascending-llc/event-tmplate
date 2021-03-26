@@ -2,10 +2,8 @@ import React from 'react';
 import './App.css';
 import { AppBar, Button } from '@material-ui/core';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-// import { makeStyles } from '@material-ui/core/styles';
 
 function App() {
-  // const classes = useStyles();
   const matches = useMediaQuery('(min-width:600px)');
 
   return (
