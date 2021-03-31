@@ -18,5 +18,7 @@
         "react"
     ],
     "rules": {
+        "import/order": "off",
+        "no-unused-vars": "off"
     }
 }
